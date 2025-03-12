@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+/* font style  */
+.hind-siliguri-light {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* shared Styel */
+
+.display_flex{
+    display: flex;
+}
+/* green 01 */
+.green_01{
+    color: #43BB76;
+
+}
+
+.primary-btn{
+    background-color: #43BB76;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    padding: 14px 20px;
+}
+
+/* header  Related style */
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.headere-section{
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    opacity: 1.0;
+    margin-top: 30px;
+}  
+
+.header-tags{
+    list-style: none;
+    text-decoration: none;
+    color: #3F3F3F;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 22px;
+   
+}
+
+.bangla-btn{
+    text-align: center;
+     font-size: 1rem;
+    background-color: #F8FAFC;
+     justify-content: center;
+     text-align: center;
+    /* max-width: 67px;
+    max-height: 29px; */
+    text-align: center;
+    border: 0.5px solid #9196A1 ;
+    border-radius: 5px;
+    padding: 12px;
+     
+}
+
+.headaer-btn-section{
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+
+
+.hotline-number{
+    font-size: 1rem;
+    font-weight: 600;
+    
+    
+    
+}
+
+.p-btn{
+    background-color: #43BB76;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.phone_icon{
+   width: 15px;
+   height: 15px;
+   margin-top: 22px;
+}
+
+/* discount section */
+
+.discount{
+    background-color: #F4F7FD;
+
+   
+
+    
+}
+
+.discount-container{
+    
+    
+    background-image: url("/images/11_bg\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover ;
+    
+    margin-right: 140px;
+    margin-left: 140px;
+    gap: 314px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.discount-title{
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 700;
+
+}
+.discount-desc{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    max-width: 480px;
+}
+
+.discoutn-number{
+    /* margin-left: 69px; */
+    margin-bottom: 71px;
+}
+.discoutn-img{
+    /* margin-left: 69px; */
+    
+}
+.discount-section-img{
+    max-width: 424px;
+ 
+    
+   
+}
+
+/* skill section style */
+.skill-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+}
+
+.skill-desc{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #676F7C;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-right: 130px;
+    
+}
+
+
+.skill-section{
+    
+    /* border: 1px solid gold; */
+    background-color: #FFFFFF;
+    max-width: 524px;
+
+    padding: 20px 40px 20px 30px;
+   
+    margin-left: 217px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.banner-img{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.skill-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.skill-sec{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.skill-img{
+    justify-content: center;
+    align-items: center;
+    padding-top:12px ;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* development platfrom */
+
+.development{
+   background-color: #000000;
+}
+
+.small-skill{
+    color: white;
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+}
