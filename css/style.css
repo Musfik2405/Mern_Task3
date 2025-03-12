@@ -199,6 +199,7 @@ nav {
 .banner-img{
     margin-top: 100px;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .skill-name{
@@ -218,19 +219,158 @@ nav {
     padding-top:12px ;
     padding-right: 10px;
     padding-left: 10px;
+    
 }
 
 /* development platfrom */
 
 .development{
    background-color: #000000;
+   margin-top: 0px;
+   
 }
 
 .small-skill{
     color: white;
+    font-size: 1rem;
 }
 
 .title{
     text-align: center;
     justify-content: center;
+   
+
+}
+
+.samll-skill-img{
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.deve-title{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.teacher{
+    justify-content: center;
+    gap: 43px;
+}
+
+.teacher-desc{
+    color: white;
+}
+
+
+.course-name{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.course-number{
+    margin-top: 0px;
+    color: #676F7C;
+}
+
+.course{
+    max-width: 250px;
+    /* box-shadow: 5px 10px 8px 10px #676F7C; */
+    background-color: #111827;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    
+}
+
+.course-info{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin-left: 165px;
+   margin-right: 160px;
+   
+}
+.sp-title, .sp-desc{
+color: white;
+padding-left:10px ;
+}
+.go-link{
+    color: #43BB76;
+    padding-left:10px ;
+    margin-top: 0px;
+}
+
+/* .special-course{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+} */
+
+.special-course{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    margin-left: 165px;
+   margin-right: 160px;
+   margin-top: 30px;
+}
+
+.spe-container{
+    background-color: #111827;
+    max-width: 270px;
+    
+}
+
+.sp-title{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.sp-desc{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+
+.cen-btn{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+
+/* footer section */
+footer{
+    background-color: #000000;
+}
+.jj{
+    
+    background-color: #121220;
+    margin-left: 132px;
+    margin-right: 132px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot-title{
+    color: #676F7C;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.company{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+
+}
+
+.com-img{
+    filter:grayscale(1);
 }
