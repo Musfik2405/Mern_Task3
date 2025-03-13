@@ -374,3 +374,131 @@ footer{
 .com-img{
     filter:grayscale(1);
 }
+
+
+@media screen and (max-width:576px){
+    .company{
+        grid-template-columns: repeat(1,1fr);
+        /* padding-left: 50px; */
+        text-align: center;
+    }
+    .fot-title{
+       /* padding-left: 70px; */
+       margin-right: 0px;
+    }
+
+    .special-course, .course-info{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+       margin-left: 100px;
+       margin-right: 100px;
+    }
+    .cen-btn, .cen{
+       
+       margin-right: 0px;
+       justify-content: center;
+       align-items: center;
+    }
+    .cen-btn{
+        /* padding-left: 30px; */
+    }
+
+    .skill-container{
+       grid-template-columns: repeat(1, 1fr);
+       margin-right: 0px;
+       margin-left: 0px;
+       justify-content: center;
+    }
+
+    .skill-section{
+      margin: 0px auto;
+      margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .discount-container{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        gap: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headere-section {
+        flex-direction: column;
+      }
+      .logo{
+        width: 100%;
+      }
+      .headaer-btn-section{
+        flex-direction: column;
+        text-align: center;
+      }
+      .ho{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hm {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+
+   
+}
+
+@media screen and (min-width:576px) and (max-width:990px){
+    .company{
+        grid-template-columns: repeat(1,1fr);
+        /* padding-left: 50px; */
+        text-align: center;
+    }
+    .fot-title{
+       /* padding-left: 70px; */
+       margin-right: 0px;
+    }
+
+    .special-course, .course-info{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 50px;
+    }
+
+    .cen-btn, .cen{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 0px;
+        margin-left: 0px;
+     }
+
+     .skill-section{
+        margin: 0px auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      .discount-container{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        gap: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+      
+
+
+}
