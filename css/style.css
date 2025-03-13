@@ -375,6 +375,11 @@ footer{
     filter:grayscale(1);
 }
 
+/* header style */
+.hm{
+    margin: 0px;
+}
+/* resposive media  */
 
 @media screen and (max-width:576px){
     .company{
@@ -442,7 +447,7 @@ footer{
         align-items: center;
       }
 
-      .hm {
+      .hm{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -496,6 +501,9 @@ footer{
         gap: 0px;
         flex-direction: column;
         text-align: center;
+    }
+    .discount-section-img{
+        width: 100%;
     }
 
       
